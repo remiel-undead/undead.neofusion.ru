@@ -1,0 +1,27 @@
+# Site settings
+title: ''
+url: 'http://undead.neofusion.ru'
+description: ''
+
+# Build settings
+exclude: ['Gemfile']
+
+future: true
+
+gems:
+  - jekyll-paginate
+
+markdown: kramdown
+highlighter: rouge
+excerpt_separator: <!--more-->
+
+permalink: pretty
+timezone: Europe/Moscow
+
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    span:
+      disable: true
+
+paginate: 5
