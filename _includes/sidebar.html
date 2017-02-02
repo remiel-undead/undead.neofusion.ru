@@ -7,7 +7,7 @@
             <p class="lead">{{ site.description }}</p>
         </div>
         <nav class="sidebar-nav">
-            <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">Home</a>
+            <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="/">На главную</a>
             {% assign pages_list = site.pages %}
             {% for node in pages_list %}
                 {% if node.title != null %}
@@ -16,6 +16,10 @@
                     {% endif %}
                 {% endif %}
             {% endfor %}
+            <a class="sidebar-nav-item" href="http://remiel-undead.livejournal.com/">LiveJournal</a>
+            <a class="sidebar-nav-item" href="https://github.com/remiel-undead">GitHub</a>
+            <a class="sidebar-nav-item" href="https://www.youtube.com/channel/UC3Yfos4DWgU4_14FRSW_Z_Q">YouTube</a>
+            <a class="sidebar-nav-item" href="https://vk.com/id20879217">VK</a>
         </nav>
         <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
     </div>

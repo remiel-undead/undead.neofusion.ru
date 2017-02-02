@@ -1,7 +1,7 @@
 # Site settings
-title: ''
+title: 'Утонувшая во Вселенной'
 url: 'http://undead.neofusion.ru'
-description: ''
+description: 'Блог о программизме, психоанализе и жизни в потенциальном изобилии ресурсов.'
 
 # Build settings
 exclude: ['Gemfile']
